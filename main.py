@@ -1,16 +1,10 @@
-# This is a sample Python script.
+import pandas as pd
+import datetime
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# Countdown to Christmas 2021
+print("Happy New Year! Welcome 2021")
+current_date = datetime.datetime.now()
+future_date = datetime.datetime(2021,12,25)
+delta = future_date - current_date
+print(delta)
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
